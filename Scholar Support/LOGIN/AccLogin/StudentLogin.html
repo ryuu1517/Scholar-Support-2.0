@@ -1,0 +1,50 @@
+<!--Student Login-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Login</title>
+  <link rel="stylesheet" href="/LOGIN/AccLoginStyles/login.css">
+</head>
+<body>
+  <div class="student-login-container"> 
+    <div class="student-login-box">
+
+       <p class="tittle">Student Login</p>
+
+      <div class="input-container">
+       <p class="sign-in-text">Sign in to continue.</p>
+       <input placeholder="enter your username" class="display-input">
+       <input placeholder="enter your password" class="display-input">
+      </div>
+
+
+
+
+      <div class="button-container">
+
+        <p class="create-acc-text">Don't have account?<a href="StudentCreateAccount.html" class="create-acc-link"> Create Account</a></p>
+
+      <button onclick="document.location='/USER/StudentDashboard/UserDashboard.html'" class="login-button">Login</button>
+
+      <div class="text-container">
+        <div class="box"> 
+         <input onclick="alert('Keep Signed in')" class="checkbox" type="checkbox"><p>Keep me signed in</p>
+        </div>
+       
+        <div class="forgot-link">
+          <a class="forgotpass" href="StudentPasswordRecovery.html">Forgot Password?</a>
+           </div>
+      </div>
+      
+
+       <button onclick="document.location='/HOME PAGE/Homepage/Homepage.html'" class="home-button">Back Home</button>
+      
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

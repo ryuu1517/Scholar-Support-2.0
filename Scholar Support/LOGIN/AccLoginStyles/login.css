@@ -1,0 +1,109 @@
+/*Student Login*/
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  background-color: rgba(219, 219, 219, 1);
+  margin-top: 89px;
+}
+
+.student-login-container {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.20);
+}
+.student-login-box {
+  width: 600px;
+  height: 600px;
+  padding: 10px;
+}
+.tittle {
+  font-weight:700;
+  font-size: 22px;
+  margin-top: 0;
+  margin-left: 220px;
+  margin-bottom: 40px;
+}
+.sign-in-text {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.display-input {
+  width: 586px;
+  height: 48px;
+  margin: 15px 0px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+
+
+
+.button-container {
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+}
+.create-acc-text {
+  text-align: center;
+  width: 600px;
+  font-size: 15px;
+  margin: 20px 0 30px 0;
+}
+.create-acc-link {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(44, 132, 246, 1);
+}
+.login-button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  background-color: rgba(50, 189, 115, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.20);
+  width: 600px;
+  height: 40px; 
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+.box {
+  display:flex;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+}
+.forgot-link {
+  display: flex;
+  align-items: center;
+}
+.forgotpass {
+  text-decoration: none;
+}
+.home-button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  background-color: rgba(39, 60, 117, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.20);
+  width: 600px; 
+  height: 40px;
+  cursor: pointer; 
+  transition: opacity 0.1s;
+}
+
+.login-button:active {
+  opacity: 0.8;
+}
+.home-button:active {
+  opacity: 0.8;
+}

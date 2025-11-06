@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+  display: grid;
+  place-items: center;
+  background-color: rgba(219, 219, 219, 1); 
+}
+
+.pass-rec-container {
+  display: flex;
+  margin-top: 25px;
+  width: 400px;
+  height: 550px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.tittle {
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+.sub-tittle {
+  font-size: 17.5px;
+  font-weight: 600;
+}
+.sub-tittle1 {
+  font-size: 15px;
+  margin: 0 0 20px 0;
+}
+.input-text {
+  font-size: 17px;
+  font-weight: lighter;
+  width: 357px;
+  padding: 18px 0 18px 40px ;
+  margin: 0 0 12px 0; 
+}
+
+.rst-btn {
+  margin-top: 20px;
+}
+.reset-btn {
+  background-color: rgba(68, 189, 50, 1);
+  padding: 15px 178.5px;
+  text-decoration: none;
+  color: white; 
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s;
+}
+.reset-btn:active {
+  opacity: 0.8;
+}
+.home-btn {
+  margin-top: 30px;
+  padding: 15px 164px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(39, 60, 117, 1);
+  color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.home-btn:active {
+  opacity: 0.8;
+}

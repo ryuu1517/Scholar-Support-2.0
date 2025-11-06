@@ -1,0 +1,152 @@
+<!--Admin Dashboard-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/ADMIN/AdminDbstyles/MainAdmindbstyle.css">
+</head>
+<body>
+  <aside>
+   
+    <div class="logo-container">
+      <img class="school-logo" src="/images/OIP.jpg">
+      <a href="/HOME PAGE/Homepage/Homepage.html" class="school-name">ICCT <br>COLLEGES</a>
+    </div>
+
+    <div class="admin-info-container">
+      <img class="admin-profile2" src="/images/3135715.png">
+      <div> 
+       <p class="admin-name1">Admin Name</p>
+       <p class="admin-gmail">Admin gmail</p>
+      </div> 
+    </div>
+
+     <div class="dashboard-container">
+      <p class="dashboard-text">DASHBOARD</p>
+
+     <button class="dropdown-btn">
+      Dashboard <i class=" fa fa-caret-down"></i>
+     </button>
+      <div class="dropdown-container"></div>
+      
+       <button class="dropdown-btn">Class 
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="Class-add.html">Add Class</a>
+        <a href="Class-manage.html">Manage Class</a>
+       </div>
+
+      <button class="dropdown-btn">Students 
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="Student-add.html">Add Studeent</a>
+        <a href="Student-manage.html">Manage Student</a>
+       </div>
+
+      <button class="dropdown-btn">Application
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="Add.html">Add</a>
+        <a href="Manage.html">Manage</a>
+       </div>
+
+      <button class="dropdown-btn">Notice
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="Notice-add.html">Add Notice</a>
+        <a href="Notice-manage.html">Manage Notice</a>
+       </div>
+
+      <button class="dropdown-btn">Public Notice
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="PubNotice-add.html">Add Public Notice</a>
+        <a href="PubNotice-manage.html">Manage Public Notice</a>
+       </div>
+
+      <button class="dropdown-btn">Pages 
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="About-us.html">About Us</a>
+        <a href="Contact-us.html">Contact Us</a>
+       </div>
+
+      <button class="dropdown-btn">Reports
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container">
+        <a href="Student.html">Student</a>
+        <a href="Application.html">Application</a>
+       </div>
+
+      <button class="dropdown-btn">Search
+       <i class=" fa fa-caret-down"></i>
+     </button>
+       <div class="dropdown-container"></div>
+    </div>
+  </aside>
+
+  <nav>
+    <div class="admin-welcome-dboard">
+     <p class="admin-name">Admin name </p>
+     <p> Welcome to dashboard!</p>
+    </div>
+
+    <div class="admin-profile1">
+        <img class="admin-image-profile" src="/IMAGES/3135715.png">
+    <div class="admin-option">
+        <p>Admin Name</p>
+    <div class="dropdown">
+        <select></select>
+    <div class="content">
+        <img class="image" src="/IMAGES/3135715.png">
+
+    <div class="profile-details">
+        <p class="ad-name">Admin Name</p>
+        <p class="ad-email">Admin Email</p>
+    </div>
+    
+    <div class="icons-container">
+      <div class="icons-div icon1"> <img             class="icons" src="/IMAGES/user (1).png"><a href="/ADMIN/AdminDashboard/MyProfile.html">My Profile</a></div>
+      <div class="icons-div icon2"> <img class="icons" src="/IMAGES/padlock (1).png"><a href="/ADMIN/AdminDashboard/ChangePassword.html">Change Password</a></div>
+      <div class="icons-div icon3"><img class="icons" src="/IMAGES/power-switch.png"><a href="/HOME PAGE/Homepage/Homepage.html">Sign Out</a></div>
+    </div>
+       </div>
+      </div>
+     </div>
+    </div>
+
+  </nav>
+
+  <main></main>
+
+  <footer>ICCT Scholar Support Portal</footer>
+
+  <script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+    });
+    }
+  </script>
+
+</body>
+</html>
